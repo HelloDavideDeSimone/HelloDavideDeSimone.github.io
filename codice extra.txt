@@ -1,0 +1,8 @@
+Icone support me
+
+    <div align="center" id=icone>
+        <br><br><br><br>
+        <a href="https://www.amazon.it/hz/wishlist/ls/PO57KU3HXEMD?ref_=wl_share"><img src="../icons/amazon.png" width="60" height="60" alt="amazon_img" title="www.amazon.it/hz/wishlist/ls/PO57KU3HXEMD?ref_=wl_share"/></a>
+        <a href="https://paypal.me/davidedesimone96"><img src="../icons/paypal.png" width="60" height="60" alt="paypal_img" title="paypal.me/davidedesimone96"/></a>
+        <p>Support me</p><br><br>
+    </div>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel='shortcut icon' type='image/x-icon' href='../favicon.ico' />
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+
+    <title>Contact me | Davide De Simone</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" >
+    <link rel="stylesheet" href="../css/custom_home_style.css" >
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <style>body{padding-top: 120px; padding-bottom: 850px;}</style>
+</head>
+<body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js" ></script>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+        <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+            <a class="navbar-brand" href="../index.html">
+                Home
+            </a>
+            <div class="w-100 text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+                <li class="nav-item">
+                    <a href="../me/index.html" class="nav-link">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../projects/index.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Contact me</a>
+                </li>
+            </ul>
+        </div>
+
+     </div>
+    </nav>
+
+    
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-7 ">
+    
+        <p><h1>Contact me</h1><br></p>
+        <p>You can check me here:</p>
+    <div align="center" id=icone>
+        <a href="https://t.me/davide_de"><img src="../icons/telegram.png" width="45" height="45" alt="telegram_img" title="t.me/davide_de"/></a>
+        <a href="https://github.com/HelloDavideDeSimone"><img src="../icons/github.png" width="60" height="60" alt="github_img" title="github.com/HelloDavideDeSimone"/></a>
+        <a href="https://www.instagram.com/davidedesimone96/"><img src="../icons/instagram.png" width="60" height="60" alt="instagram_img" title="instagram.com/davidedesimone96/"/></a>
+        <a href="skype:davide.desimone.34?chat"><img src="../icons/skype.png" width="60" height="60" alt="skype_img" title="davide.desimone.34"/></a>
+    </div>
+
+    <br>
+    <p>Or you can leave me a message via this form, you will be recontacted as soon as possible!</p>
+
+
+
+        <form action="https://formspree.io/xwkrorbl" method="POST">
+            <div class="form-group" >
+                <label for="inputName">Name</label>
+                <input type="text" name="name" class="form-control" id="inputname" aria-describedby="namehelp" required>
+              </div>
+            <div class="form-group">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" name="_replyto" id="InputEmail" aria-describedby="emailHelp" required>
+              <small id="emailHelp" class="form-text text-muted">Your email will not be stored.</small>
+            </div>
+            <div class="form-group">
+                <label for="Textarea1">Text</label>
+                <textarea name="message" class="form-control" id="Textarea1" rows="3" required></textarea>
+              </div>
+              <div class="g-recaptcha" data-sitekey="6LeKuwAVAAAAAN9E5hrW3ga4SwxiapINsKnFTk79"></div><br><br>
+                <div align="center">
+
+                <button name="submit" type="submit" id="submit">
+                    <div class="btn btn-one" >
+                      <span><h3>Send!</h3></span>
+                </div>  
+          </form>
+    
+     
+
+          
+            </div>
+        </div>
+        
+</div>
+<div id="push"> </div>
+<footer id="bottom" class="row text-center">
+    <div class="col-12">
+    Copyright &copy; 2020 Davide De Simone
+    </div>
+</footer>
+
+
+
+
+
+</body>
+</html>
