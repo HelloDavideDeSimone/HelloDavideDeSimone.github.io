@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel='shortcut icon' type='image/x-icon' href='../favicon.ico' />
-    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-    <link rel="manifest" href="../site.webmanifest">
+    <link rel='shortcut icon' type='image/x-icon' href='../../favicon.ico' />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+    <link rel="manifest" href="../../site.webmanifest">
 
     <title>CW Transmitter | Davide De Simone</title>
     <link rel="stylesheet" href="../../css/bootstrap.min.css" >
@@ -18,6 +18,7 @@
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js" ></script>
+    <script src="../../js/jquery.fitvids.js" ></script>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
@@ -52,18 +53,34 @@
     
     <div class="container">
         <div class="row justify-content-md-center">
-            <div class="col-md-11 ">
+            <div class="col-md-10 ">
             
             <div class="post-warp archive">
-                <h2 class="post-title" style="text-align:right;padding-bottom:2em">Morse code transmitter</h2>
+                <h2 class="post-title" style="text-align:right;padding-bottom:2em">Trasmettitore QRP</h2>
                 <div class="post-content">
-                    <h2 id="intro">Intro</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat sequi illum, qui neque molestias autem sed. Ab velit molestias impedit alias, nam earum eaque minus ullam, sed quis quo ipsam?</p>
-            <h2 id="Second?part">Second Part</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolor doloribus incidunt explicabo, ab doloremque pariatur sint eos consequuntur magnam voluptas sit nam labore excepturi officiis dolores suscipit porro minus!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore cumque commodi quibusdam illo voluptatem laborum ullam dolores deserunt. Sint, est qui. Officia iure corrupti a amet quaerat nisi repellendus incidunt.
+            <h2 id="sottotitolo">Intro</h2>
+            <p>Oggi è possibile acquistare per pochi euro un chip in grado di generare segnali manenendo le caratteristiche d'onda costanti nel tempo. 
+                Un componente del genere di chiama DDS (Direct Digital Synthesis) e in questo articolo non mi soffermerò sul funzionamento di questo chip, 
+            bensì su una possibile applicazione: Un trasmettitore in alta frequenza per codice morse. </p>
+            <h2 id="sottotitolo">Materiali</h2>
+            <p>Per la realizzazione del trasmettitore è necessario anzitutto un DDS, io ne ho utilizzato uno prodotto dalla Analog Device (AD9850) già montato su 
+                una schedina di sviluppo. È necessario comunicare con il nostro DDS, per cui abbiamo bisogno di un'interfaccia di comunicazione. Nel mio caso un 
+                PIC18F4550 è stato più che sufficiente; il PIC si occupa della gestione degli input (encoder, pulsanti e tasto di manipolazione), del display e della 
+                programmazione del DDS. Di seguito uno schema a blocchi illustra com'è collegato il tutto: 
             </p>
-            
+            <img class="mx-auto d-block" id="schema_blocchi" src="../../images/blocchi.png">
+            <h2 id="sottotitolo">Funzionamento trasmettitore </h2>
+            <p> completare...
+            </p>
+            <h2 id="sottotitolo">Codice PIC</h2>
+            <p>completare...</p>
+            <h2 id="sottotitolo">Funzionamento</h2>
+            <p>Qui di seguito vi è un video dimostrativo sul funzionamento del trasmettitore. Attraverso due pulsanti si sposta il cursore sulla cifra della 
+                frequenza che si intende modificare, un pulsante permette di andare in trasmissione attivando un relè che 
+                 commuta l'antenna verso il trasmettitore, attiva l'amplificatore e segnala il tutto con una spia rossa. È tutto molto spartano 
+                 ma è perfettamente funzionante!
+            </p>
+            <div class="youtube-player" data-id="ilAJJ3WHg6g"></div>
                 </div>
             </div>
   
@@ -71,11 +88,20 @@
         </div>
         <div id="push"> </div>
     </div>
-         <footer id="bottom" class="row text-center fixed-bottom">
+    <div id="video" class="col-md-4 offset-md-4">
+    <iframe  width="430" height="315" src="https://www.youtube.com/embed/UySG41uV-mA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+         <footer id="bottom" class="row text-center ">
             <div class="col-12">
             Copyright &copy; 2020 Davide De Simone
             </div>
         </footer>
 
+
+        <script>
+            $(document).ready(function(){
+              $("#video").fitVids();
+            });
+          </script>
 </body>
 </html>
