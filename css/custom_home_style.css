@@ -34,7 +34,9 @@ body{
     position: sticky ;
     text-align: center;
     }
-
+.highlight {
+    background-color: rgba(192, 191, 191, 0.801);
+}
 .container {
         min-height: 100%;
         height: auto !important;
@@ -128,4 +130,6 @@ div[class*=box] {
     transform: scale(0.1, 1);
 }
 
-
+.pre-scrollable {
+    max-height: 260px;
+}

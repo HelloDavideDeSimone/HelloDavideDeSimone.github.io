@@ -71,9 +71,79 @@
             <img class="mx-auto d-block" id="schema_blocchi" src="../../images/blocchi.png">
             <h2 id="sottotitolo">Funzionamento trasmettitore </h2>
             <p> completare...
+
             </p>
             <h2 id="sottotitolo">Codice PIC</h2>
-            <p>completare...</p>
+            <p>completare...
+            
+            </p>
+            <h2 id="sottotitolo">Migliorie</h2>
+            <p>Rispetto ad un semplice trasmettitore per codice morse, questo è dotato di una funzionalità anti click da manipolazione. Quando vi è una 
+                brusca variazione di corrente, si genera un impulso che "sporca" il segnale portante; questo può dar fastidio a chi ci ascolta. 
+                Per ovviare a tale problema l'ampiezza d'uscita del segnale del DDS è stata modulata (tramite un transistor) in maniera da avere una rampa 
+                di salita più morbida. Utilizzando una rete R-2-R, un registro I/O ad 8 bit del PIC e una tabella di valori calcolata sulla base delle 
+                caratteristiche del transistor con questo semplice programma in C, si è ottenuta la curva in uscita al DDS della figura 1. 
+            
+            </p>
+            <div class="row">
+                <div class="col-sm-8">
+
+                    <div class="highlight">
+                            <pre class="pre-scrollable"><p><code>//file: erf.c<br>#include &lt;math.h&gt;<br>#include &lt;stdio.h&gt;<br>#include &lt;stdlib.h&gt;
+main(){
+    float x=-3;
+    int erfX;
+    long C;
+    FILE *out;   
+out = fopen("ERFZ.txt", "w");
+         while(1){
+                  C++;
+                  erfX = ((erf(x)+1)*127.50146);
+                    printf( "%i,", erfX);       
+                    fprintf(out, "%i,", erfX); 
+                    x = 0.006 + x ;
+ 
+                    if (x>=3) {                 
+                      fflush(stdin);
+                      getchar();
+                      break;
+                    }                   
+                    printf( "%i,", C); 
+                }                         
+        fclose(out);                                               
+ }// end main</code></pre>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <img class="mx-auto d-block " src="../../images/rampa_salita.bmp">
+                    <figcaption style="text-align: center;">  
+                        <p>Figura 1</p>  
+                   </figcaption>  
+                </div>  
+
+            </div>
+
+                <div class="row" style="display: flex;align-items: center;justify-content: center;padding-top: 1em; padding-bottom: 2em;">
+                 
+                <div class="col-sm-4">
+                    <img class="mx-auto d-block " src="../../images/imp_trafo.JPG" alt="Dettaglio trasformatore d'impedenza" width="100%">
+                    <figcaption style="text-align: center;">  
+                   </figcaption>  
+                </div>  
+
+                <div class="col-sm-4">
+                    <p>L'impedenza d'uscita è stata poi adattata tramite un piccolo trasformatore d'impedenza toroidale</p>
+                </div> 
+
+            </div>
+
+            
+
+
+
+
+
             <h2 id="sottotitolo">Funzionamento</h2>
             <p>Il video qui sotto è dimostrativo del funzionamento del trasmettitore. Attraverso due pulsanti si sposta il cursore sulla cifra della 
                 frequenza che si intende modificare, un pulsante permette di andare in trasmissione attivando un relè che 
