@@ -59,7 +59,42 @@
     </div>
     </nav>
 
-    
+    <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <div class="col-md-2">
+                <h4 class="modal-title" id="exampleModalLabel">Npm</h4><br>
+            </div>
+            <div class="col-md-3 offset-md-6" style="padding-left: 30px;">
+                <img id="npm-img" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg">
+            </div>
+
+          
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            npm è un gestore di pacchetti per il linguaggio di programmazione JavaScript. È il gestore di pacchetti
+             predefinito per l'ambiente di runtime JavaScript Node.js. Consiste in un client da linea di comando, 
+             chiamato anch'esso npm, e un database online di pacchetti pubblici e privati, chiamato npm registry. 
+             <a href="https://it.wikipedia.org/wiki/Npm_(software)">Wikipedia</a>.
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
 <div class="container">
     <div class="row justify-content-md-center">
         <div class="col-md-9 ">
@@ -67,8 +102,8 @@
     <h2 style="text-align: right;">Soluzioni nodeschool.io</h2>
 
     <div style="padding-top: 3em;">
-    <p>Per avvicinarmi al mondo di Node.js ho iniziato dal sito <a href="https://nodeschool.io/">nodeschool.io</a>. Qui dentro vi è una raccolta di esercizi 
-        interativi (workshops) scaricabili tramite npm che pongono le basi per l'apprendimento di Node. In particolare vengono proposti esercizi in cui 
+    <p>Per avvicinarmi al mondo Node.js ho iniziato dal sito <a href="https://nodeschool.io/">nodeschool.io</a>. Nel sito troverete una raccolta di esercizi 
+        interattivi (workshops) scaricabili tramite <a href="" id="npm" data-toggle="modal" data-target="#exampleModal"><b>npm</b></a> che pongono le basi per l'apprendimento di Node. In particolare vengono proposti esercizi in cui 
         si viene introdotti agli stream, alla programmazione asincrona, all'uso dell'npm ecc... Se si è alle prime armi, in alcuni casi può essere
          difficile risolverli, per cui dare una sbirciatina alle soluzioni può essere d'aiuto! Qui sotto troverete le mie soluzioni ai vari moduli svolti: 
     </p>
@@ -84,8 +119,8 @@
     </span>
 
     <span>
-        <p>Workshop how to npm:<br>Piccola introduzione all'npm, il grande raccoglietore di pacchetti di node.
-            <br><a href="https://github.com/HelloDavideDeSimone/how-to-npm_solutions">Soluzioni how-to-npm</a></p>
+        <p>Workshop how to npm:<br>Piccola introduzione all'npm, il grande raccoglietore di pacchetti di node. L'ho trovato davvero utile per fare le 
+            prime operazioni con npm; non pubblico le soluzioni di questo workshop in quanto non c'è codice da scrivere.</p>
     </span>
     </div>
 

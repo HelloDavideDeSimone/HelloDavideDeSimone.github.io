@@ -14,6 +14,12 @@ body{
    
 }
 
+#npm{color: black;}
+#npm:hover {background-color: yellow;}
+#npm-img{
+    height: auto;
+    width: 90px;
+}
 .avatar img{
     width:128px;height:128px;display:inline-block;
     -webkit-border-radius:100%;border-radius:100%;
