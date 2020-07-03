@@ -15,7 +15,7 @@ body{
 }
 
 #npm{color: black;}
-#npm:hover {background-color: yellow;}
+#npm:hover {background-color: #2fdb0c}
 #npm-img{
     height: auto;
     width: 90px;
