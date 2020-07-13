@@ -101,31 +101,36 @@
                 <div class="col-sm-8">
 
                     <div class="highlight">
-                            <pre class="pre-scrollable"><p><code>//file: erf.c<br>#include &lt;math.h&gt;<br>#include &lt;stdio.h&gt;<br>#include &lt;stdlib.h&gt;
-main(){
-    float x=-3;
-    int erfX;
-    long C;
-    FILE *out;   
-out = fopen("ERFZ.txt", "w");
-         while(1){
-                  C++;
-                  erfX = ((erf(x)+1)*127.50146);
-                    printf( "%i,", erfX);       
-                    fprintf(out, "%i,", erfX); 
-                    x = 0.006 + x ;
+                            <pre class="pre-scrollable"><p><code>//file: erf.c</span>
+<span style="color: #557799">#include &lt;math.h&gt;</span>
+<span style="color: #557799">#include &lt;stdio.h&gt;</span>
+<span style="color: #557799">#include &lt;stdlib.h&gt;</span>
+<!-- HTML generated using hilite.me -->main(){
+    <span style="color: #333399; font-weight: bold">float</span> x<span style="color: #333333">=-</span><span style="color: #0000DD; font-weight: bold">3</span>;
+    <span style="color: #333399; font-weight: bold">int</span> erfX;
+    <span style="color: #333399; font-weight: bold">long</span> C;
+    <span style="color: #333399; font-weight: bold">FILE</span> <span style="color: #333333">*</span>out;   
+out <span style="color: #333333">=</span> fopen(<span style="background-color: #fff0f0">&quot;ERFZ.txt&quot;</span>, <span style="background-color: #fff0f0">&quot;w&quot;</span>);
+         <span style="color: #008800; font-weight: bold">while</span>(<span style="color: #0000DD; font-weight: bold">1</span>){
+                  C<span style="color: #333333">++</span>;
+                  erfX <span style="color: #333333">=</span> ((erf(x)<span style="color: #333333">+</span><span style="color: #0000DD; font-weight: bold">1</span>)<span style="color: #333333">*</span><span style="color: #6600EE; font-weight: bold">127.50146</span>);
+                    printf( <span style="background-color: #fff0f0">&quot;%i,&quot;</span>, erfX);       
+                    fprintf(out, <span style="background-color: #fff0f0">&quot;%i,&quot;</span>, erfX); 
+                    x <span style="color: #333333">=</span> <span style="color: #6600EE; font-weight: bold">0.006</span> <span style="color: #333333">+</span> x ;
  
-                    if (x>=3) {                 
+                    <span style="color: #008800; font-weight: bold">if</span> (x<span style="color: #333333">&gt;=</span><span style="color: #0000DD; font-weight: bold">3</span>) {                 
                       fflush(stdin);
                       getchar();
-                      break;
+                      <span style="color: #008800; font-weight: bold">break</span>;
                     }                   
-                    printf( "%i,", C); 
+                    printf( <span style="background-color: #fff0f0">&quot;%i,&quot;</span>, C); 
                 }                         
         fclose(out);                                               
- }// end main</code></pre>
+ }<span style="color: #888888">// end main</span>
+</code></pre>
                     </div>
                 </div>
+
 
                 <div class="col-sm-4">
                     <img class="mx-auto d-block " src="../../images/rampa_salita.bmp">
