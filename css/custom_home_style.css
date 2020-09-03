@@ -51,18 +51,23 @@ body{
     }
     
 .footer, #push {
-    height: 3rem;
+    height: 1rem;
     }
 
+.description {
+        padding-top: 0.8em;
+        text-align: center;
+        }
 #desc_id {
-    padding-top: 0%;
+    padding-top: 0.5em;
     text-align: center;
     }
 
 #bottom{
     height: 3rem;
     line-height: 1.5rem;
-    padding-top: 1em;
+    padding-top: 30px;
+    padding-bottom: 5px;
     text-align: center; 
     color: rgb(52,58,64);
 }
