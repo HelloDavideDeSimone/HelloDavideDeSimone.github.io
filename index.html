@@ -24,8 +24,19 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="css/custom_home_style.css" >
     
+    <script language="JavaScript" type="text/javascript">
+        function preload() {
+          if (!document.images) return;
+          var img = new Array();
+          var arguments = preload.arguments;
+          for (var i = 0; i < arguments.length; i++) {
+            img[i] = new Image();
+            img[i].src = arguments[i];
+          }
+        }
+        </script>
 </head>
-<body>
+<body onload="preload('images/avatar4.jpg', 'images/avatar.jpg')">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
     <script src="js/bootstrap.min.js" ></script>
 
