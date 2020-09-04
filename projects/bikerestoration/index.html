@@ -13,21 +13,21 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel='shortcut icon' type='image/x-icon' href='../../favicon.ico' />
     <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
     <link rel="manifest" href="../../site.webmanifest">
 
-    <title>Old bike restoration | Davide De Simone</title>
+    <title>Bike Restoration | Davide De Simone</title>
     <link rel="stylesheet" href="../../css/bootstrap.min.css" >
     <link rel="stylesheet" href="../../css/custom_home_style.css" >
     <style>body{padding-top: 120px;}</style>
 </head>
-<body>
+<body style="padding-top: 55px;">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js" ></script>
+    <script src="../../js/jquery.fitvids.js" ></script>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
@@ -59,30 +59,91 @@
     </div>
     </nav>
 
-    
 
+    <div class="row justify-content-md-center" style="padding-bottom: 0px;">
+        <div class="col-md-10" style="padding-right: 0px; padding-left: 0px;">
+        <div id="indicator" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#indicator" data-slide-to="0" class="active"></li>
+              <li data-target="#indicator" data-slide-to="1"></li>
+              <li data-target="#indicator" data-slide-to="2"></li>
+              <li data-target="#indicator" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="10000" >
+                <img src="pic/118600562_3565676333451790_5656958414705355631_o.jpg" class="d-block w-100 mx-auto" alt="Bici_restaurata_lato_SX" > 
+              </div>
+              <div class="carousel-item" data-interval="10000" >
+                <img src="pic/118700290_3565675823451841_3288872794010122148_o.jpg" class="d-block w-100 mx-auto" alt="Bici_restaurata_lato_SX_poppa" > 
+                 </div>
+              <div class="carousel-item" data-interval="10000">
+                <img src="pic/118710882_3565686570117433_2024188958158582190_o.jpg" class="d-block w-100 mx-auto" alt="Bici_restaurata_lato_SX_prua" > 
+                </div>
+              <div class="carousel-item" data-interval="10000">
+                <img src="pic/118762532_3565686440117446_9130862854276499228_o.jpg" class="d-block w-100 mx-auto" alt="Bici_restaurata_lato_DX" > 
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#indicator" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#indicator" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+    </div>
+
+
+
+    <div class="container" style="padding-top: 50px">
+        <div class="row justify-content-md-center">
+            <div class="col-md-10 ">
+            
+            <div class="post-warp archive">
+                <h1 class="post-title" style="text-align:right;padding-bottom:2em">Restauro bici Ganna</h1>
+                <div class="post-content">
+            <h2 id="sottotitolo">Intro</h2>
+            <p>In Costruzione... </p>
+            <h2 id="sottotitolo">Metodo</h2>
+            <p>In Costruzione...
+            </p>
+
+
+            </div>
+            </div>
+            </div>
         
-
-            <img src="../../images/giphy.gif" alt="Pagina in costruzione" style="margin-left: auto; margin-right: auto; display: block;  max-width: 100%; height: auto;">
-            <div class="col-md-4 offset-md-4"></div>
-            <h2 style="text-align: center;">In Costruzione...</h2>
     
 
-    <div id="push"> </div>
+                <div class="col-md-10 ">
 
+            <h2 id="sottotitolo">All'opera!</h2>
+            <p>In Costruzione...
+            </p>
 
+                </div>
+            
+  
+            </div>
+        </div>
+       
+    
 
+</div> 
 
-
-
-
-
-
-         <footer id="bottom" class="row text-center fixed-bottom">
-            <div class="col-12">
-            Copyright &copy; 2020 Davide De Simone
+ <div id="push"> </div>
+         <footer id="bottom" class="text-center">
+            <div class="col-12">Copyright &copy; 2020 Davide De Simone
             </div>
         </footer>
 
+
+        <script>
+            $(document).ready(function(){
+              $("#video").fitVids();
+            });
+          </script>
 </body>
 </html>
