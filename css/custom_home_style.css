@@ -14,8 +14,29 @@ body{
    
 }
 
-.carousel-item img {
-    max-height: 800px; /* input your desired height here */
+
+
+.background-image{
+    background-image: url(../projects/bikerestoration/pic/118600562_3565676333451790_5656958414705355631_o.jpg); 
+  
+    
+    filter: blur(5px);
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+    height: 100%; /* input your desired height here */
+    width: 100%;
+   
+    background-position: 0% 30%;
+  }
+
+  .carousel-item img {
+    position:relative;
+    max-height: 500px; /* input your desired height here */
+    max-width: 600px;
   }
 
 #npm{color: black;}
