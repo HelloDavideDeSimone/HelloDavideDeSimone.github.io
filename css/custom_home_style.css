@@ -170,3 +170,21 @@ div[class*=box] {
 .pre-scrollable {
     max-height: 260px;
 }
+
+progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    border: none;
+    background: transparent;
+    z-index: -1;
+  }
+  progress::-webkit-progress-bar {
+
+    background: transparent;
+  }
+  progress::-webkit-progress-value {
+    background: rgba(0, 0, 0, 0.377)
+  }

@@ -30,6 +30,7 @@
     <script src="../../js/bootstrap.min.js" ></script>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <progress max="100" value="0"></progress>
         <div class="container">
         <div class="d-flex flex-grow-1">
             <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
@@ -162,5 +163,15 @@
             </div>
         </footer>
 
+<script src="../../js/gsap.min.js"></script>
+<script src="../../js/ScrollTrigger.min.js"></script>
+<script>
+gsap.registerPlugin(ScrollTrigger);
+gsap.to('progress', {
+  value: 100,
+  ease: 'none',
+  scrollTrigger: { scrub: 0.3 }
+});
+</script>
 </body>
 </html>
