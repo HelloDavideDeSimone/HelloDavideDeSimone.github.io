@@ -67,7 +67,7 @@
             <div class="col-md-10 ">
             
             <div class="post-warp archive">
-                <h2 class="post-title" style="text-align:right;padding-bottom:2em">Trasmettitore QRP</h2>
+                <h1 class="post-title">Trasmettitore QRP</h1>
                 <div class="post-content">
             <h2 id="sottotitolo">Intro</h2>
             <p>Oggi è possibile acquistare per pochi euro un chip in grado di generare segnali manenendo le caratteristiche d'onda costanti nel tempo. 
@@ -79,8 +79,8 @@
                 PIC18F4550 è stato più che sufficiente; il PIC si occupa della gestione degli input (encoder, pulsanti e tasto di manipolazione), del display e della 
                 programmazione del DDS. Di seguito uno schema a blocchi illustra com'è collegato il tutto: 
             </p>
-            <img class="mx-auto d-block" id="schema_blocchi" src="../../images/blocchi.png">
-            <h2 id="sottotitolo" style="padding-top: 1em;">Come funziona? </h2>
+            <img class="mx-auto d-block full-img" src="../../images/blocchi.png" alt="schema in blocchi">
+            <h2 id="sottotitolo">Come funziona? </h2>
             <p>Il PIC scrive, su una variabile nella ROM, un numero che corrisponde alla frequenza selezionabile tramite l'encoder rotativo; questo permette di memorizzare 
                 la frequenza anche quando si spegne l'apparato. L'encoder permette di cambiare le cifre da 0 a 9, mentre attraverso due tasti è possibile 
                 spostare il cursore verso la cifra da modificare (unità, decine, centinaia ecc..). A valle del DDS è stato inserito un amplificatore da
@@ -134,7 +134,7 @@ out <span style="color: #333333">=</span> fopen(<span style="background-color: #
 
 
                 <div class="col-sm-4">
-                    <img class="mx-auto d-block " src="../../images/rampa_salita.bmp">
+                    <img class="mx-auto d-block " src="../../images/rampa_salita.bmp" alt="screenshoot oscilloscopio, rampa salita">
                     <figcaption style="text-align: center;">  
                         <p>Figura 1</p>  
                    </figcaption>  

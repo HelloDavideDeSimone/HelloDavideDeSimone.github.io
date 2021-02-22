@@ -50,7 +50,7 @@ section {
 }
 
 #npm {
-  color: black;
+  color: rgb(194, 6, 6);
 }
 #npm:hover {
   background-color: yellow;
@@ -65,7 +65,7 @@ section {
   display: inline-block;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  box-shadow: 0 0 0 0.3618em #;
+  box-shadow: 0em 0em 0.6em 0.3618em rgb(0, 0, 0);
   margin: 0 auto;
   -webkit-transition: all ease 0.4s;
   -moz-transition: all ease 0.4s;
@@ -126,11 +126,6 @@ section {
 #contatti {
   width: 57%;
   margin: 0 auto;
-}
-
-#schema_blocchi {
-  max-width: 100%;
-  height: auto;
 }
 
 div[class*="box"] {
@@ -229,4 +224,66 @@ progress::-webkit-progress-value {
 }
 .bold {
   font-weight: bold;
+}
+.pizza-ul {
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+.biblio > ul {
+  list-style-type: circle;
+  padding-left: 20px;
+  color: black;
+}
+
+.biblio > ul > li > a {
+  color: rgb(3, 4, 102);
+  font-style: oblique;
+}
+
+#sottotitolo {
+  padding-top: 0.5em;
+}
+
+.post-title {
+  text-align: right;
+  padding-bottom: 1em;
+}
+body {
+  padding-top: 120px;
+}
+.full-img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+.caption {
+  color: rgb(49, 50, 51);
+  background-color: rgba(0, 0, 0, 0.096);
+  padding-left: 10px;
+  font-weight: 500;
+  font-style: italic;
+}
+.red {
+  color: red;
+}
+
+.paint-font {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-style: normal;
+  background: linear-gradient(
+    to right,
+    #ef5350,
+    #f48fb1,
+    #7e57c2,
+    #2196f3,
+    #26c6da,
+    #43a047,
+    #f9a825,
+    #ff5722
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

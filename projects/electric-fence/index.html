@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38990246-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-38990246-2');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel='shortcut icon' type='image/x-icon' href='../../favicon.ico' />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+    <link rel="manifest" href="../../site.webmanifest">
+
+    <title>Electric Fence | Davide De Simone</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" >
+    <link rel="stylesheet" href="../../css/custom_home_style.css" >
+    <style>body{padding-top: 120px;}</style>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js" ></script>
+    <script src="../../js/jquery.fitvids.js" ></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <progress max="100" value="0"></progress>
+        <div class="container">
+        <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+            <a class="navbar-brand" href="../../index.html">
+                Home
+            </a>
+            <div class="w-100 text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+                <li class="nav-item">
+                    <a href="../../me/index.html" class="nav-link">Chi Sono</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../../projects/index.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../../contatti/index.html" class="nav-link">Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    
+<div class="container">
+    <div class="row justify-content-md-center no-gutters">
+    <div class="col-md-10">
+        <h1 class="post-title" >Recinto elettrico</h1>
+    </div>
+        
+    <div class="col-md-10">
+        <h2 id="sottotitolo">Intro</h2>
+        Il 2020 è stato di sicuro un brutto anno: pandemia in prima fila e a seguire tutto ciò che si è portata dietro. Al mio paesello c'è stato anche un altro 
+        grosso problema con cui la gente si è dovuta (e si sta ancora) scontrare: i cinghiali. Cinghiali che essendo importati si riproducono molto più in fretta 
+        della specie autoctona, i naturali predatori non riescono a controllarne lo sviluppo e quindi è iniziata una piccola invasione. I problema più grave ad oggi 
+        è rappresentato dal rischio di collisione con le automobili e dai danni che provocano ai campi coltivati. 
+        Mio padre ha preso tutta l'uva della sua vigna in una notte. Con un po' di amarezza ci siamo messi a cercare una soluzione e... Eccoci qui!
+    </div>
+    <div class="col-md-10">
+        <h2 id="sottotitolo">L'idea</h2>
+        In commercio esistono già diversi kit per elettrificare una recinzione ma avendo in casa un po' di transistors, perchè non risparmiare qualche decina di euro?
+        Sempre restando a tema di risparmio l'idea è di utilizzare qualche batteria ormai esausta che comunque riesce a mantenere un po' di carica. 
+        Il tutto deve essere sicuro per gli uomini e animali e possibilmente a prova di furto.
+        Il circuito deve consumare meno energia possibile in maniera tale da evitare di ricaricare spesso la batteria per cui ho scartato fin da subito la possibilità 
+        di usare un microcontrollore nell'ottica "il meno consuma meno". 
+        Avevo in mente di usare un <a target="_BLANK" href="https://it.aliexpress.com/item/4001122020955.html?spm=a2g0s.9042311.0.0.27424c4djSLgQK">timer</a> 
+        per attivare l'elettrificatore solo durante alcune ore ma dopo aver effettuato alcuni test mi son reso conto che il consumo del timer in standby è circa uguale al
+         consumo del circuito elettrificatore. Lo schema in blocchi che ne risulta è il seguente. 
+    </div>
+    <div class="col-md-10">
+        <h2 id="sottotitolo">Schema in blocchi</h2>
+        <p>All'ingresso dell'elettrificatore vi è un diodo di protezione per l'inversione di polarità in quanto il circuito verrà collegato alla batteria mediante morsetti.
+            Di seguito abbiamo un temporizzatore che attiva un segnale acustico e luminosto per circa 10 secondi fino all'attivazione del circuito ad alta tensione. 
+            Vi è poi un indicatore di tensione della batteria, un localizzatore gps con un sensore di batteria scarica ed in fine il generatore di alta tensione ad impulsi.
+        </p>
+    </div>
+    <div class="col-md-9">
+        <img src="../../images/fence/schema-blocchi-fence.png" alt="schema in blocchi" width="100%">
+        <p class="caption">schema in blocchi realizzato con <a class="paint-font" target="_BLANK" href="https://it.wikipedia.org/wiki/Paint">PAINT</a></p>
+    </div>
+    <div class="col-md-10">
+    <h2>Dettagli</h2>
+    <h5>Protezione da inversione di polarità</h5>
+    <p>Un diodo è la scelta più semplice ma non sempre la migliore in quanto la resistenza interna può essere tale da far diventare molto inefficiente il circuito, 
+        nel mio caso con un assorbimento medio di circa 50mA non ci sono problemi nell'usare un semplice diodo <a href="#electric-fence-ref-1">[1]</a>.  
+    </p>
+    <h5>GPS</h5>
+    <p>Ho scelto il modello sinotrack  <a target="_BLANK" href="https://it.aliexpress.com/item/32639620194.html?spm=a2g0o.store_home.productList_6845940.pic_0">ST-901</a> in quanto era il più 
+        economico e versatile tra quelli che ho visto. È pensato per l'utilizzo con veicoli ma le caratteristiche possedute facevano proprio al mio caso. 
+        Infatti senza fare alcuna modifica, il localizzatore arriva con una batteria tampone che gli permette di funzionare per <span class="red">NNN</span> ore dopo averlo scollegato dalla batteria principale. 
+        Inoltre possiede un input (ACC) pensato per informare il proprietario dell'eventuale accensione del quadro del veicolo. 
+        Nel mio caso questo input lo userò per indicare un basso livello della batteria.
+    </p>
+    <h5>Timer con avvisatore luminoso/acustico</h5>
+    <p>Il circuito in questione non fa altro che attendere che un condensatore sia carico per poi accendere il circuito ad alta tensione.
+        Mentre il circuito ad alta tensione non è alimentato, un <a target="_BLANK" href="https://www.ebay.it/itm/152236504843?chn=ps&norover=1&mkevt=1&mkrid=724-128315-5854-1&mkcid=2&itemid=152236504843&targetid=883693966700&device=c&mktype=pla&googleloc=1008645&poi=&campaignid=9561703854&mkgroupid=98418255815&rlsatarget=pla-883693966700&abcId=1145978&merchantid=116425334&gclid=Cj0KCQiApsiBBhCKARIsAN8o_4j77ZEZf97Ti0-uFhlXj6e6Hlm-7TQUMgXDsYQd8Ks83AinstUUVVAaAncXEALw_wcB">cicalino a 12v</a>
+         e un <a target="_BLANK" href="https://www.amazon.it/RGB-MULTICOLORE-5mm-lampada-luminosit%C3%A0/dp/B015ZIQC9Y/ref=asc_df_B015ZIQC9Y/?tag=googshopit-21&linkCode=df0&hvadid=85510324223&hvpos=&hvnetw=g&hvrand=15899443554623083596&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008645&hvtargid=pla-187736343143&psc=1">led multicolore</a>
+          resteranno attivi per segnalarne l'imminente accensione. 
+    </p>
+    <h5>Indicatore livello batteria</h5>
+    <p>Nell'ottica di consumare meno energia è stato previsto un piccolo pulsante che controlla un voltmetro indicante la tensione della batteria,
+    </p>
+
+    <h5>Generatore alta tensione</h5>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, debitis laborum sapiente minus magni quisquam vero vel beatae distinctio ut nostrum rem deleniti aliquam est eius praesentium omnis provident veritatis?
+    </p>
+    <h5>Spia al neon</h5>
+    <p>Per far avere una spia che indichi la presenza di alta tensione sui fili della recinzione ho utilizzato una lampadina al neon, in serie a due elettrodi che fungono da spinterometro,
+        in parallello all'uscita dell'alta tensione. In questo modo è possibile regolare la tensione di soglia per l'accensione della spia al neon variando la distanza fra gli elettrodi.
+         </p>
+         <h1>Da concludere...</h1>
+    </div>
+    <div class="col-md-10 biblio">
+        <h2 id="sottotitolo">Bibliografia</h2>
+        <ul>
+            <li><a target="_BLANK" href="https://www.infineon.com/dgdl/Reverse-Batery-Protection-Rev2.pdf?fileId=db3a304412b407950112b41887722615" id="electric-fence-ref-1">[1] Infineon - reverse battery protection. Application Note, 2.0, June 2009</a></li>
+            <li><a target="_BLANK" href="https://ieeexplore.ieee.org/document/9176351" id="electric-fence-ref-2">[2] M. W. Kroll, P. E. Perkins, H. Pratt, E. Stuart, J. Bury and D. Panescu, "Safety of a High-Efficiency Electrical Fence Energizer," 2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC), Montreal, QC, Canada, 2020, pp. 5016-5020, doi: 10.1109/EMBC44109.2020.9176351.</a></li>
+            <li><a target="_BLANK" href="https://sites.google.com/view/elettronica-di-vittorio-i2viu/elettronica/miscdellanea/alta-tensione-con-eat" id="electric-fence-ref-3">[3] Vittorio Crapella, GENERATORE DI ALTA TENSIONE - scossa 2</a></li>
+            <li><a target="_BLANK" href="http://www.jmest.org/wp-content/uploads/JMESTN42351519.pdf" id="electric-fence-ref-4">[4] Ferdous, A.H.M & Faisal, Arif & Mahbub, Shahriar & Abdussami, Rafiul & Hashmey, Syed. (2016). Design And Development Of An External Cardiac Defibrillator Using The Fly Back Transformer. 3. 2458-9403. </a></li>
+            <li><a target="_BLANK" href="http://tesi.cab.unipd.it/51558/1/Casetta_Stefano_307267.pdf" id="electric-fence-ref-5">[5] Stefano Cassetta (2016), tesi di laurea, "Generatori di alte tensioni impulsive per il controllo di animali e persone." </a></li>
+            <li><a target="_BLANK" href="https://www.championpowersports.eu/assets/Beru/ti-07-ignition-coils-gb-2013-lowres-0.pdf" id="electric-fence-ref-6">[6] Federal Mogul (2013), All about ignition coils</a></li>
+            <li><a target="_BLANK" href="https://en.wikipedia.org/wiki/Induction_coil">[7] Rocchetto di Ruhmkorff su wikipedia</a></li>
+        </ul>
+
+     </div>    
+     
+     
+
+
+    </div> <!-- class="row justify-content-md-center"-->
+    <div id="push"> </div>
+</div>  <!-- end container-->
+
+
+         <footer id="bottom" class="text-center">
+            <div class="col-12">Copyright &copy; 2021 Davide De Simone
+            </div>
+        </footer>
+
+
+
+        <script>
+            $(document).ready(function(){
+              $("#video").fitVids();
+            });
+          </script>
+<script src="../../js/gsap.min.js"></script>
+<script src="../../js/ScrollTrigger.min.js"></script>
+<script>
+gsap.registerPlugin(ScrollTrigger);
+gsap.to('progress', {
+  value: 100,
+  ease: 'none',
+  scrollTrigger: { scrub: 0.3 }
+});
+</script>
+
+</body>
+</html>
