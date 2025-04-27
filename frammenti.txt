@@ -1,4 +1,0 @@
-<button type="submit" style="background: url(../icons/send_button.jpg)">Invia</button>
-
-
-<input type="image" src="../icons/send_icon.png" />
