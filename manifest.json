@@ -1,7 +1,7 @@
 {
-  "name": "Davide De Simone - Electronics & Web Developer Portfolio",
-  "short_name": "DD Portfolio",
-  "description": "Professional portfolio of Davide De Simone - Electronics enthusiast and web developer from Pisa, Italy",
+  "name": "Davide De Simone - Electronics enthusiast & Web Developer Portfolio",
+  "short_name": "Davide De Simone",
+  "description": "Davide De Simone - Electronics enthusiast and web developer from Pisa, Italy",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1a1b26",
