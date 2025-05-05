@@ -127,13 +127,13 @@ function _sfc_ssrRender$n(_ctx, _push, _parent, _attrs, $props, $setup, $data, $
   const _component_LanguageToggle = resolveComponent("LanguageToggle");
   _push(`<header${ssrRenderAttrs(mergeProps({
     class: ["navbar", { "scrolled": _ctx.scrolled, "nav-open": _ctx.navOpen }]
-  }, _attrs))} data-v-7007b1dc><div class="container navbar-container" data-v-7007b1dc><div class="navbar-logo" data-v-7007b1dc><a href="/#home" class="logo" data-v-7007b1dc><span data-v-7007b1dc>&lt;</span>DavideDeSimone<span data-v-7007b1dc>/&gt;</span></a></div><div class="navbar-right" data-v-7007b1dc><nav class="${ssrRenderClass([{ "active": _ctx.navOpen }, "navbar-nav"])}" data-v-7007b1dc><ul data-v-7007b1dc><!--[-->`);
+  }, _attrs))} data-v-1676841f><div class="container navbar-container" data-v-1676841f><div class="navbar-logo" data-v-1676841f><a href="/#home" class="logo" data-v-1676841f><span data-v-1676841f>&lt;</span>DavideDeSimone<span data-v-1676841f>/&gt;</span></a></div><div class="navbar-right" data-v-1676841f><nav class="${ssrRenderClass([{ "active": _ctx.navOpen }, "navbar-nav"])}" data-v-1676841f><ul data-v-1676841f><!--[-->`);
   ssrRenderList(_ctx.navItems, (item) => {
-    _push(`<li data-v-7007b1dc><a${ssrRenderAttr("href", item.section)} class="${ssrRenderClass({ "active": _ctx.activeSection === item.section.substring(1) })}" data-v-7007b1dc>${ssrInterpolate(_ctx.$t(item.label))}</a></li>`);
+    _push(`<li data-v-1676841f><a${ssrRenderAttr("href", item.section)} class="${ssrRenderClass({ "active": _ctx.activeSection === item.section.substring(1) })}" data-v-1676841f>${ssrInterpolate(_ctx.$t(item.label))}</a></li>`);
   });
   _push(`<!--]--></ul></nav>`);
   _push(ssrRenderComponent(_component_LanguageToggle, { class: "language-toggle" }, null, _parent));
-  _push(`<div class="navbar-toggler" data-v-7007b1dc><span data-v-7007b1dc></span><span data-v-7007b1dc></span><span data-v-7007b1dc></span></div></div></div></header>`);
+  _push(`<div class="navbar-toggler" data-v-1676841f><span data-v-1676841f></span><span data-v-1676841f></span><span data-v-1676841f></span></div></div></div></header>`);
 }
 const _sfc_setup$n = _sfc_main$n.setup;
 _sfc_main$n.setup = (props, ctx) => {
@@ -141,7 +141,7 @@ _sfc_main$n.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/components/TheNavbar.vue");
   return _sfc_setup$n ? _sfc_setup$n(props, ctx) : void 0;
 };
-const TheNavbar = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["ssrRender", _sfc_ssrRender$n], ["__scopeId", "data-v-7007b1dc"]]);
+const TheNavbar = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["ssrRender", _sfc_ssrRender$n], ["__scopeId", "data-v-1676841f"]]);
 const _sfc_main$m = defineComponent({
   name: "TheFooter",
   setup() {
@@ -566,10 +566,10 @@ function _sfc_ssrRender$h(_ctx, _push, _parent, _attrs, $props, $setup, $data, $
   const _component_TheFooter = resolveComponent("TheFooter");
   const _component_CookieConsent = resolveComponent("CookieConsent");
   const _component_CookieSettings = resolveComponent("CookieSettings");
-  _push(`<div${ssrRenderAttrs(mergeProps({ class: "app-container" }, _attrs))} data-v-a84ba2f6>`);
+  _push(`<div${ssrRenderAttrs(mergeProps({ class: "app-container" }, _attrs))} data-v-c508acfe>`);
   _push(ssrRenderComponent(_component_CircuitAnimation, null, null, _parent));
   _push(ssrRenderComponent(_component_TheNavbar, null, null, _parent));
-  _push(`<main data-v-a84ba2f6>`);
+  _push(`<main data-v-c508acfe>`);
   _push(ssrRenderComponent(_component_router_view, null, {
     default: withCtx(({ Component }, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -595,7 +595,7 @@ _sfc_main$h.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("src/App.vue");
   return _sfc_setup$h ? _sfc_setup$h(props, ctx) : void 0;
 };
-const App = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$h], ["__scopeId", "data-v-a84ba2f6"]]);
+const App = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$h], ["__scopeId", "data-v-c508acfe"]]);
 const _sfc_main$g = defineComponent({
   name: "ProjectCard",
   props: {
