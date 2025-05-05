@@ -20,6 +20,90 @@
   "index.html": [
     "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
   ],
+  "node_modules/@intlify/core-base/dist/core-base.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@intlify/message-compiler/dist/message-compiler.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@intlify/shared/dist/shared.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@unhead/vue/dist/client.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@unhead/vue/dist/shared/vue.BYLJNEcq.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/const.js": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/env.js": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/index.js": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/proxy.js": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/time.js": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@vuelidate/core/dist/index.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/@vuelidate/validators/dist/index.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/hookable/dist/index.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/unhead/dist/client.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/unhead/dist/shared/unhead.Cp0iF6eN.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/unhead/dist/shared/unhead.DGkFBTYv.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/unhead/dist/shared/unhead.DZbvapt-.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/unhead/dist/shared/unhead.yem5I2v_.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/vite-ssg/dist/index.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/vue-i18n/dist/vue-i18n.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/vue-router/dist/vue-router.mjs": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
+  "node_modules/vuex/dist/vuex.esm-bundler.js": [
+    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
+  ],
   "public/img/projects/schema-blocchi-fence.webp": [
     "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
   ],
