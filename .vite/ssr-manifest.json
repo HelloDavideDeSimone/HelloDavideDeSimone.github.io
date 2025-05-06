@@ -1,290 +1,98 @@
 {
-  "\u0000plugin-vue:export-helper": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "\u0000vite/modulepreload-polyfill.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "../../../../../img/davidedesimone.jpeg": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "../../../../../img/projects/imp_trafo.jpeg": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "../../../../../img/projects/rampa_salita.webp": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "../../../../../img/projects/tx_cw_schema_blocchi.webp": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "index.html": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@intlify/core-base/dist/core-base.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@intlify/message-compiler/dist/message-compiler.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@intlify/shared/dist/shared.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@unhead/vue/dist/client.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@unhead/vue/dist/shared/vue.BYLJNEcq.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/const.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/env.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/index.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/proxy.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/time.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@vuelidate/core/dist/index.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/@vuelidate/validators/dist/index.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/hookable/dist/index.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/unhead/dist/client.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/unhead/dist/shared/unhead.Cp0iF6eN.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/unhead/dist/shared/unhead.DGkFBTYv.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/unhead/dist/shared/unhead.DZbvapt-.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/unhead/dist/shared/unhead.yem5I2v_.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/vite-ssg/dist/index.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/vue-i18n/dist/vue-i18n.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/vue-router/dist/vue-router.mjs": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "node_modules/vuex/dist/vuex.esm-bundler.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "public/img/projects/schema-blocchi-fence.webp": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/App.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/App.vue?vue&type=style&index=0&scoped=c508acfe&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/assets/styles/animations.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/assets/styles/main.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/AboutComponent.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/AboutComponent.vue?vue&type=style&index=0&scoped=1cc72a0b&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/CircuitAnimation.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/CircuitAnimation.vue?vue&type=style&index=0&scoped=cb3a46c9&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/ContactForm.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/ContactForm.vue?vue&type=style&index=0&scoped=da851817&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/CookieConsent.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/CookieConsent.vue?vue&type=style&index=0&scoped=58c140a6&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/CookieSettings.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/CookieSettings.vue?vue&type=style&index=0&scoped=3949a05a&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/ExperienceComponent.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/ExperienceComponent.vue?vue&type=style&index=0&scoped=ebcad14b&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/HomeComponent.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/HomeComponent.vue?vue&type=style&index=0&scoped=b8ee9e72&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/LanguageToggle.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/LanguageToggle.vue?vue&type=style&index=0&scoped=2c4b6a51&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/MessageSentModal.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/MessageSentModal.vue?vue&type=style&index=0&scoped=5040bf71&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/ProjectCard.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/ProjectCard.vue?vue&type=style&index=0&scoped=a1ff8887&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/SimpleTerminal.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/SimpleTerminal.vue?vue&type=style&index=0&scoped=867d3d86&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/TheFooter.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/TheFooter.vue?vue&type=style&index=0&scoped=91e25671&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/TheNavbar.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/components/TheNavbar.vue?vue&type=style&index=0&scoped=1676841f&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/i18n/index.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/i18n/projects.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/i18n/translations/en.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/i18n/translations/it.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/main.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/router/index.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/services/analytics.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/store/index.js": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/CookiePolicyView.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/CookiePolicyView.vue?vue&type=style&index=0&scoped=83064f7b&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/NotFound.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/NotFound.vue?vue&type=style&index=0&scoped=5eda1e80&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/PrivacyPolicyView.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/PrivacyPolicyView.vue?vue&type=style&index=0&scoped=895cc722&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/ProjectsView.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/ProjectsView.vue?vue&type=style&index=0&scoped=42d409f7&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/Services/smallServices.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/Services/smallServices.vue?vue&type=style&index=0&scoped=549314ac&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/SinglePageView.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/SinglePageView.vue?vue&type=style&index=0&scoped=2267b869&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/WebProjects/GiuliaSelvino.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/WebProjects/GiuliaSelvino.vue?vue&type=style&index=0&scoped=2344d12b&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/WebProjects/SmallBusinessLanding.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/WebProjects/SmallBusinessLanding.vue?vue&type=style&index=0&scoped=7d43ae34&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/WebProjects/SmallBusinessServices.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/WebProjects/SmallBusinessServices.vue?vue&type=style&index=0&scoped=21bc8afe&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/electric_fence.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/electric_fence.vue?vue&type=style&index=0&scoped=2c448ea2&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/tx_cw.vue": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ],
-  "src/views/tx_cw.vue?vue&type=style&index=0&scoped=23d9286d&lang.css": [
-    "/assets/schema-blocchi-fence-Dnm32OvQ.webp"
-  ]
+  "\u0000plugin-vue:export-helper": [],
+  "\u0000vite/modulepreload-polyfill.js": [],
+  "../../../../../img/davidedesimone.jpeg": [],
+  "../../../../../img/projects/imp_trafo.jpeg": [],
+  "../../../../../img/projects/rampa_salita.webp": [],
+  "../../../../../img/projects/schema-blocchi-fence.webp": [],
+  "../../../../../img/projects/tx_cw_schema_blocchi.webp": [],
+  "index.html": [],
+  "node_modules/@intlify/core-base/dist/core-base.mjs": [],
+  "node_modules/@intlify/message-compiler/dist/message-compiler.mjs": [],
+  "node_modules/@intlify/shared/dist/shared.mjs": [],
+  "node_modules/@unhead/vue/dist/client.mjs": [],
+  "node_modules/@unhead/vue/dist/shared/vue.BYLJNEcq.mjs": [],
+  "node_modules/@vue/devtools-api/lib/esm/const.js": [],
+  "node_modules/@vue/devtools-api/lib/esm/env.js": [],
+  "node_modules/@vue/devtools-api/lib/esm/index.js": [],
+  "node_modules/@vue/devtools-api/lib/esm/proxy.js": [],
+  "node_modules/@vue/devtools-api/lib/esm/time.js": [],
+  "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [],
+  "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [],
+  "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [],
+  "node_modules/@vue/shared/dist/shared.esm-bundler.js": [],
+  "node_modules/@vuelidate/core/dist/index.mjs": [],
+  "node_modules/@vuelidate/validators/dist/index.mjs": [],
+  "node_modules/hookable/dist/index.mjs": [],
+  "node_modules/unhead/dist/client.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.Cp0iF6eN.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.DGkFBTYv.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.DZbvapt-.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.yem5I2v_.mjs": [],
+  "node_modules/vite-ssg/dist/index.mjs": [],
+  "node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [],
+  "node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [],
+  "node_modules/vue-i18n/dist/vue-i18n.mjs": [],
+  "node_modules/vue-router/dist/vue-router.mjs": [],
+  "node_modules/vuex/dist/vuex.esm-bundler.js": [],
+  "src/App.vue": [],
+  "src/App.vue?vue&type=style&index=0&scoped=c508acfe&lang.css": [],
+  "src/assets/styles/animations.css": [],
+  "src/assets/styles/main.css": [],
+  "src/components/AboutComponent.vue": [],
+  "src/components/AboutComponent.vue?vue&type=style&index=0&scoped=1cc72a0b&lang.css": [],
+  "src/components/CircuitAnimation.vue": [],
+  "src/components/CircuitAnimation.vue?vue&type=style&index=0&scoped=cb3a46c9&lang.css": [],
+  "src/components/ContactForm.vue": [],
+  "src/components/ContactForm.vue?vue&type=style&index=0&scoped=91b7c92b&lang.css": [],
+  "src/components/CookieConsent.vue": [],
+  "src/components/CookieConsent.vue?vue&type=style&index=0&scoped=58c140a6&lang.css": [],
+  "src/components/CookieSettings.vue": [],
+  "src/components/CookieSettings.vue?vue&type=style&index=0&scoped=3949a05a&lang.css": [],
+  "src/components/ExperienceComponent.vue": [],
+  "src/components/ExperienceComponent.vue?vue&type=style&index=0&scoped=ebcad14b&lang.css": [],
+  "src/components/HomeComponent.vue": [],
+  "src/components/HomeComponent.vue?vue&type=style&index=0&scoped=b8ee9e72&lang.css": [],
+  "src/components/LanguageToggle.vue": [],
+  "src/components/LanguageToggle.vue?vue&type=style&index=0&scoped=2c4b6a51&lang.css": [],
+  "src/components/MessageSentModal.vue": [],
+  "src/components/MessageSentModal.vue?vue&type=style&index=0&scoped=6ff48d81&lang.css": [],
+  "src/components/ProjectCard.vue": [],
+  "src/components/ProjectCard.vue?vue&type=style&index=0&scoped=a1ff8887&lang.css": [],
+  "src/components/SimpleTerminal.vue": [],
+  "src/components/SimpleTerminal.vue?vue&type=style&index=0&scoped=867d3d86&lang.css": [],
+  "src/components/TheFooter.vue": [],
+  "src/components/TheFooter.vue?vue&type=style&index=0&scoped=91e25671&lang.css": [],
+  "src/components/TheNavbar.vue": [],
+  "src/components/TheNavbar.vue?vue&type=style&index=0&scoped=1676841f&lang.css": [],
+  "src/i18n/index.js": [],
+  "src/i18n/projects.js": [],
+  "src/i18n/translations/en.js": [],
+  "src/i18n/translations/it.js": [],
+  "src/main.js": [],
+  "src/router/index.js": [],
+  "src/services/analytics.js": [],
+  "src/store/index.js": [],
+  "src/views/CookiePolicyView.vue": [],
+  "src/views/CookiePolicyView.vue?vue&type=style&index=0&scoped=83064f7b&lang.css": [],
+  "src/views/NotFound.vue": [],
+  "src/views/NotFound.vue?vue&type=style&index=0&scoped=5eda1e80&lang.css": [],
+  "src/views/PrivacyPolicyView.vue": [],
+  "src/views/PrivacyPolicyView.vue?vue&type=style&index=0&scoped=895cc722&lang.css": [],
+  "src/views/ProjectsView.vue": [],
+  "src/views/ProjectsView.vue?vue&type=style&index=0&scoped=42d409f7&lang.css": [],
+  "src/views/Services/smallServices.vue": [],
+  "src/views/Services/smallServices.vue?vue&type=style&index=0&scoped=549314ac&lang.css": [],
+  "src/views/SinglePageView.vue": [],
+  "src/views/SinglePageView.vue?vue&type=style&index=0&scoped=2267b869&lang.css": [],
+  "src/views/WebProjects/GiuliaSelvino.vue": [],
+  "src/views/WebProjects/GiuliaSelvino.vue?vue&type=style&index=0&scoped=2344d12b&lang.css": [],
+  "src/views/WebProjects/SmallBusinessLanding.vue": [],
+  "src/views/WebProjects/SmallBusinessLanding.vue?vue&type=style&index=0&scoped=7d43ae34&lang.css": [],
+  "src/views/WebProjects/SmallBusinessServices.vue": [],
+  "src/views/WebProjects/SmallBusinessServices.vue?vue&type=style&index=0&scoped=462c4a4c&lang.css": [],
+  "src/views/electric_fence.vue": [],
+  "src/views/electric_fence.vue?vue&type=style&index=0&scoped=fc62c35c&lang.css": [],
+  "src/views/tx_cw.vue": [],
+  "src/views/tx_cw.vue?vue&type=style&index=0&scoped=23d9286d&lang.css": []
 }
