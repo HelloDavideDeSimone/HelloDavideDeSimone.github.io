@@ -1,24 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!-- Homepage -->
-  <url>
-    <loc>https://davidedesimone.dev/</loc>
-    <lastmod>2025-04-23</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <!-- Privacy Policy -->
-  <url>
-    <loc>https://davidedesimone.dev/privacy-policy</loc>
-    <lastmod>2025-04-23</lastmod>
-    <priority>0.50</priority>
-  </url>
-  <!-- Cookie Policy -->
-  <url>
-    <loc>https://davidedesimone.dev/cookie-policy</loc>
-    <lastmod>2025-04-23</lastmod>
-    <priority>0.50</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://www.davidedesimone.dev/</loc>
+<lastmod>2025-05-19T07:39:27+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://www.davidedesimone.dev/projects/</loc>
+<lastmod>2025-05-19T07:39:27+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<loc>https://www.davidedesimone.dev/projects/tx_cw/</loc>
+<lastmod>2025-05-19T07:39:27+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.davidedesimone.dev/projects/electric_fence/</loc>
+<lastmod>2025-05-19T07:39:27+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.davidedesimone.dev/privacy-policy/</loc>
+<lastmod>2025-05-19T07:39:27+00:00</lastmod>
+<priority>0.10</priority>
+</url>
+<url>
+<loc>https://www.davidedesimone.dev/cookie-policy/</loc>
+<lastmod>2025-05-19T07:39:27+00:00</lastmod>
+<priority>0.10</priority>
+</url>
 </urlset>

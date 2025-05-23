@@ -2,9 +2,10 @@
   "\u0000plugin-vue:export-helper": [],
   "\u0000vite/modulepreload-polyfill.js": [],
   "../../../../../img/davidedesimone.jpeg": [],
-  "../../../../../img/projects/imp_trafo.jpeg": [],
+  "../../../../../img/projects/imp_trafo.jpeg?w=600&format=webp&as=src": [],
   "../../../../../img/projects/rampa_salita.webp": [],
   "../../../../../img/projects/schema-blocchi-fence.webp": [],
+  "../../../../../img/projects/soldering.jpg": [],
   "../../../../../img/projects/tx_cw_schema_blocchi.webp": [],
   "index.html": [],
   "node_modules/@intlify/core-base/dist/core-base.mjs": [],
@@ -94,5 +95,5 @@
   "src/views/electric_fence.vue": [],
   "src/views/electric_fence.vue?vue&type=style&index=0&scoped=fc62c35c&lang.css": [],
   "src/views/tx_cw.vue": [],
-  "src/views/tx_cw.vue?vue&type=style&index=0&scoped=23d9286d&lang.css": []
+  "src/views/tx_cw.vue?vue&type=style&index=0&scoped=4b787762&lang.css": []
 }
